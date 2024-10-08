@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://img.freepik.com/premium-photo/deep-space-background-perfect-wallpapers-banners-backgrounds-graphic-design_276152-987.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.log-in{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    
+    
+    
+
+   
+}
+.box{
+width: 400px;
+height: 500px;
+border: 5px solid grey;
+border-radius: 30px;
+background-color: transparent;
+padding: 20px;
+
+display: flex;
+flex-direction: column;
+
+
+
+}
+h1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    
+
+
+}
+input{
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    height: 50px;
+    padding: 20px;
+
+}
+span{
+    justify-content: space-between;
+}
+a{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    height: 50px;
+    padding: 20px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 20px black;
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+}
